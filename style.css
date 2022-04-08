@@ -283,3 +283,50 @@ margin-bottom: 5px;
     justify-content: center;
     flex-direction: column;
 }
+.dispositivos{
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    flex-direction: column;
+}
+.devices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.devices p{
+    font-size: 15px;
+}
+.computador{
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+.televisores{
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+.videogames{
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+.celulares{
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+.computador img{
+max-width: 200px;
+}
+.televisores img{
+    max-width: 200px;
+}
+.videogames img{
+    max-width: 200px;
+}
+.celulares img{
+    max-width: 200px;
+}
