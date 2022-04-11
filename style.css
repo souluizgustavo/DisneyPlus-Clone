@@ -99,6 +99,7 @@ header{
 }
 .tipo-assinatura p{
     margin-right: 10px;
+    margin: 5px;
 }
 .tipo-assinatura a{
     color: white;
@@ -329,4 +330,122 @@ max-width: 200px;
 }
 .celulares img{
     max-width: 200px;
+}
+@media (max-width:500px){
+
+    header{
+        flex-direction: column;
+        justify-content: center;
+        height: 100px;
+    }
+    .logo{
+        margin-top: 50px;
+    }
+    .menu{
+        margin-top: 20px;
+    }
+    .botton-sign{
+        padding: 8px;
+        margin-right: 20px;
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .botton-login{
+        padding: 10px;
+        border-radius: 5px;
+        transition: 0.5s;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .sec-head{
+    background:none;
+    }
+    .planos{
+        flex-direction: column;
+        height: auto;
+    }
+    .assista img{
+        max-width: 300px;
+    }
+    .assista{
+        flex-direction: column;
+    }
+    .assinatura-combo span{
+        background-color: #6321ff;
+        padding: 25px;
+        padding-inline: 20px;
+        font-size: 18px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tipo-assinatura{
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+    }
+    .tipo-assinatura p{
+        margin-top: 20px;
+        margin-right: 0px;
+        font-size: 15px;
+        text-align: center;
+}
+.assinatura-combo h1{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.devices{
+    flex-direction: column;
+}
+.plano-1{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.plano-2{
+    margin-bottom: 30px;
+}
+.texto-assista{
+    color: white;
+    width: 100%;
+    margin-inline-end: 0px;
+}
+.texto-assista h2{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.texto-assista p{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.exclusivos h2{
+    margin-top: 7%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.baixe-filmes{
+    background-size: 100% no-repeat;
+    background-position: center;
+}
+.baixe-filmes h2{
+    text-align: center;
+    font-size: 30px;
+}
+.baixe-filmes h1{
+    font-size: 60px;
+    text-align: center;
+}
+.baixe-texto{
+    margin-right: 0%;
+}
+.dispositivos h2{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 }
